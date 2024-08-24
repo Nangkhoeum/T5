@@ -1,0 +1,51 @@
+table{
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px rgb(199, 178, 178);
+}
+th,td{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+    font-size: 16px;
+    padding: 8px;
+}
+th{
+    text-align: start;
+    background: rgb(94, 190, 94);
+    color: black;
+}
+tr:hover{
+    background-color: #f2f2f2;
+}
+button{
+    margin: 2px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 3px;
+}
+.button-blue{
+    background-color: rgb(15, 176, 190);
+    width: 50px;
+}
+.button-red{
+    background-color: red;
+    width: 70px;
+}
+.button-yellow{
+    background-color: rgba(252, 212, 12, 0.811);
+    width: 100px;
+}
+.button-yellow:hover{
+    background-color: green;
+}
+.button-red:hover{
+    background-color: blue;
+}
+.button-blue:hover{
+    background-color: purple;
+}
